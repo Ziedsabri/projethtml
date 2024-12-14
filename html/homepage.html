@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mayo Clinic</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="..\css\homepage.css">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand text-primary fw-bold" href="#">Mayo Clinic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="service.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary me-2" href="signin.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-primary" href="signup.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section position-relative">
+    <video class="w-100" autoplay muted loop playsinline>
+      <source src="..\assets\vidhome.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+      <div class="text-center text-white">
+        <h1 class="fw-bold display-4" style="color: black;">Your Health, Our Priority</h1>
+        <p class="mt-3">Committed to providing world-class care and innovative treatments.</p>
+        <a href="service.html" class="btn btn-primary btn-lg mt-3">Explore Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section class="locations py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Locations</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="../assets/rockstar.jpg" alt="Rochester Campus" class="img-fluid rounded mb-2">
+          <h4 class="fw-bold">Rochester, Minnesota</h4>
+          <p>Our flagship campus offering world-class care and research facilities.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="../assets/arizona.jpg" alt="Arizona Campus" class="img-fluid rounded mb-2">
+          <h4 class="fw-bold">Phoenix/Scottsdale, Arizona</h4>
+          <p>Providing expert care in the warm desert climate of Arizona.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="../assets/jackson.jpg" alt="Florida Campus" class="img-fluid rounded mb-2">
+          <h4 class="fw-bold">Jacksonville, Florida</h4>
+          <p>Specializing in advanced medical technology and compassionate care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialties Section -->
+  <section class="specialties bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Why Choose Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li><strong>Oncology:</strong> Leading experts in cancer care.</li>
+            <li><strong>Cardiology:</strong> Advanced treatments for heart health.</li>
+            <li><strong>Neurology:</strong> World-class neurology and neurosurgery teams.</li>
+            <li><strong>Orthopedics:</strong> Expert care for bone and joint health.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Ranked #1 in the U.S.</h3>
+          <p>Recognized as the best hospital in the nation for patient care and innovation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">What Our Patients Say</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <blockquote class="blockquote text-center">
+            <p>"Mayo Clinic saved my life! The doctors and staff are incredible."</p>
+            <footer class="blockquote-footer">John Doe, Cancer Survivor</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote text-center">
+            <p>"The care I received was exceptional. I felt valued and supported."</p>
+            <footer class="blockquote-footer">Jane Smith, Heart Patient</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4">
+          <blockquote class="blockquote text-center">
+            <p>"The facilities are state-of-the-art, and the staff is world-class."</p>
+            <footer class="blockquote-footer">Mark Wilson, Neurology Patient</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter bg-primary text-white py-4">
+    <div class="container text-center">
+      <h3 class="mb-3">Stay Connected</h3>
+      <p>Subscribe to our newsletter for the latest health tips and updates.</p>
+      <form class="d-flex justify-content-center">
+        <input type="email" class="form-control w-50 me-2" placeholder="Enter your email">
+        <button type="submit" class="btn btn-light">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-primary text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Contact Us</h5>
+          <p>Email: contact@mayoclinic.org</p>
+          <p>Phone: +1 800-123-4567</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <h5>Follow Us</h5>
+          <a href="#" class="text-white me-3">Facebook</a>
+          <a href="#" class="text-white me-3">Twitter</a>
+          <a href="#" class="text-white">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center py-2">
+      <p class="mb-0">© 2024 Mayo-Inspired. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

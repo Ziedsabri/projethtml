@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  
+  .hero-section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-section video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .hero-overlay h1 {
+    font-size: 3rem;
+    
+  }
+  
+  .hero-overlay p {
+    font-size: 1.25rem;
+   
+    
+  }
+  
+  .hero-overlay a {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-overlay h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-overlay p {
+      font-size: 1rem;
+    }
+   
+  }
+  
+  .navbar-nav .nav-link {
+    position: relative;
+    color: #000; /* Default color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #007bff; /* Underline color */
+    left: 0;
+    bottom: -5px; /* Adjust distance from the text */
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    width: 100%; /* Full underline on hover */
+  }
+  
