@@ -1,0 +1,17 @@
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\db\AdherentBD.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\db\DatabaseConnection.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\db\DatabaseOperations.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\db\EmpruntBD.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\db\LivreBD.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\models\Adherent.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\models\Emprunts.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\models\Livre.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\services\AdherentService.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\services\EmpruntService.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\services\LivreService.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\ui\GestionAdherentUI.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\ui\GestionEmpruntUI.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\ui\GestionLivreUI.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\ui\LoginUI.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\ui\MainMenuUI.java
+C:\Users\USER\Documents\NetBeansProjects\bib\src\main\java\com\mycompany\bib\utils\StringUtils.java
